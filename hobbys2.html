@@ -1,0 +1,108 @@
+<!doctype <<!DOCTYPE html>
+<html>
+<title>Hobby's</title>
+
+<head>
+    <style>
+        body {
+            background-image: url(https://media3.giphy.com/media/WxDZ77xhPXf3i/giphy.gif);
+            background-size: cover;
+            font-family: monospace;
+            font-size: 20px;
+            margin: auto;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            -webkit-background-size: cover;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            float: left;
+            width: 33.33%
+        }
+
+        li a {
+            background-color: rgba(204, 255, 255, .7);
+            color: black;
+            display: block;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+
+
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(153, 204, 255, .7);
+            color: white;
+
+        }
+
+        li a.active {
+            background-color: rgba(0, 51, 153, .7);
+            border: 1px solid black;
+            color: white;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            margin: 4%;
+            padding: 2%;
+            width: 40%;
+
+        }
+
+        .row:after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="index2.html">Index</a></li>
+        <li><a class="active" href="hobbys2.html">Hobby's</a></li>
+        <li><a href="contact2.html">Contact</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="column" style="background-color:rgba(204, 255, 255, .7);">
+            <object data="ytlogo.svg" type="image/svg+xml">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/320px-YouTube_Logo_2017.svg.png">
+            </object>
+            <p>
+                YouTube is een website van YouTube LLC, een dochteronderneming van Google Inc. Het is een site waar gebruikers kosteloos
+                video's kunnen publiceren en voorzien van reclame (of soms tegen betaling) kunnen bekijken. YouTube behoort
+                tot de top 3 van meest bezochte websites wereldwijd. Per dag worden er ongeveer 300.000 nieuwe video's geplaatst
+                (2016).
+                <br><br>Bron: https://nl.wikipedia.org/wiki/YouTube
+            </p>
+        </div>
+        <div class="column" style="background-color:rgba(204, 255, 255, .7);">
+            <object data="rlogo.svg" type="image/svg+xml">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Reddit_logo_and_wordmark.svg/320px-Reddit_logo_and_wordmark.svg.png">
+
+            </object>
+            <p>
+                Reddit is een website waar mensen communities oprichten over bepaalde onderwerpen. Deze communities ook wel subreddits zijn
+                forums waar mensen berichten kunnen posten. Gebruikers kunnen dan ook nog comments plaatsen onder de desbetreffende
+                post en in discussie met elkaar kunnen raken. Reddit is een van de beste platforms ter wereld.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

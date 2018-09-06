@@ -1,0 +1,120 @@
+<!doctype <<!DOCTYPE html>
+<html>
+<title>Contact</title>
+
+<head>
+    <style>
+        body {
+            background-image: url(https://media1.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif);
+            background-size: cover;
+            font-family: monospace;
+            font-size: 20px;
+            margin: auto;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            -webkit-background-size: cover;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            float: left;
+            width: 33.33%
+        }
+
+        li a {
+            background-color: rgba(204, 255, 255, .7);
+            color: black;
+            display: block;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(153, 204, 255, .7);
+            color: white;
+
+        }
+
+        li a.active {
+            background-color: rgba(0, 51, 153, .7);
+            border: 1px solid black;
+            color: white;
+        }
+
+        form {
+            background-color: rgba(204, 255, 255, .7);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            padding: 2%;
+            width: 33.33%;
+
+        }
+
+        
+        input[type=text] {
+            font-size: 80%;
+            height: 5%;
+            padding: 5%;
+            width: 100%;
+        }
+
+        input[type=mail] {
+            font-size: 80%;
+            height: 5%;
+            padding: 5%;
+            width: 100%;
+
+        }
+
+        select {
+            font-size: 80%;
+            height: 5%;
+            width: 100%;
+
+        }
+
+        textarea {
+            font-size: 80%;
+            height: 15%;
+            padding: 5%;
+            resize: none;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index3.html">Index</a></li>
+        <li><a href="hobbys3.html">Hobby's</a></li>
+        <li><a class="active" href="contact3.html">Contact</a></li>
+    </ul>
+    <br>
+    <form action="/action_page.php">
+        Naam:<br>
+        <input type="text" maxlength="70" placeholder="Michael" required>
+        <br>E-mailadres:<br>
+        <input type="mail" maxlength="70" placeholder="michael@mail.com" required>
+        <br>Onderwerp:<br>
+        <select>
+            <option value="privé">privé</option>
+            <option value="zakelijk">zakelijk</option>
+        </select>
+        <br>Vraag:<br>
+        <textarea maxlength="150" placeholder="Hoe heb je je webpagina zo fantastisch mooi weten te maken?" required spellcheck="true"></textarea>
+        <br><br>
+        <input type="submit" value="Verstuur" disabled>
+        <p> *versturen werkt nog niet</p>
+    </form>
+</body>
+
+</html>
