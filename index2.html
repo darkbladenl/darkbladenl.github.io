@@ -3,94 +3,11 @@
 <title>Index</title>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-        body {
-            background-image: url(https://media3.giphy.com/media/WxDZ77xhPXf3i/giphy.gif);
-            background-size: cover;
-            font-family: monospace;
-            font-size: 20px;
-            margin: auto;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            -webkit-background-size: cover;
-
-        }
-
-        tr:hover {
-            background-color: rgba(204, 255, 255, .6) !important;
-
-        }
-
-        tr:nth-child(odd) {
-            background-color: rgba(204, 255, 255, .2);
-
-        }
-
-        th,
-        td {
-            font-size: 20px;
-            padding: 5px;
-            text-align: left;
-
-        }
-
-        .table {
-            background-color: rgba(204, 255, 255, .7);
-            height: auto;
-            margin: auto;
-            margin-top:3%;
-            padding: 0;
-            width: 33.33%;
-        }
-        .table2 {
-            background-color: rgba(204, 255, 255, .7);
-            height: auto;            
-            margin: auto;
-            padding: 0; 
-            width: 33.33%;
-        }
-    
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li {
-            float: left;
-            width: 33.33%
-        }
-
-        li a {
-            background-color: rgba(204, 255, 255, .7);
-            color: black;
-            display: block;
-            padding: 8px;
-            text-align: center;
-            text-decoration: none;
-
-        }
-
-        li a:hover:not(.active) {
-            background-color: rgba(153, 204, 255, .7);
-            color: white;
-
-        }
-
-        li a.active {
-            background-color: rgba(0, 51, 153, .7);
-            border: 1px solid black;
-            color: white;
-        }
-
-        a.shook{
-            color: black;
-            display: inline-block;
-            line-height: 20px;
-            overflow: hidden;
-            text-decoration: none;
-            width: 9px;
-        }
+    body {
+        background-image: url(https://media3.giphy.com/media/WxDZ77xhPXf3i/giphy.gif);
+    }
        
     </style>
 </head>
@@ -103,7 +20,7 @@
     </ul>
     <br>
 
-    <table class="table">
+    <table id="table">
         <tr>
             <th colspan="2">Persoonlijke Informatie</th>
         </tr>
@@ -130,7 +47,7 @@
     </table>
     <br>
 
-    <table class="table2">
+    <table id="table2">
         <tr>
             <th>Programmeertalen:</th>
         </tr>

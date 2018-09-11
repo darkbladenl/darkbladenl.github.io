@@ -28,7 +28,7 @@ td {
 
 }
 
-.table {
+#table {
     background-color: rgba(204, 255, 255, .7);
     height: auto;
     margin: auto;
@@ -36,7 +36,7 @@ td {
     padding: 0;
     width: 33.33%;
 }
-.table2 {
+#table2 {
     background-color: rgba(204, 255, 255, .7);
     height: auto;            
     margin: auto;
