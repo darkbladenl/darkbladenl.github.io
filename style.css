@@ -22,7 +22,9 @@ td {
   padding: 5px;
   text-align: left;
 }
-
+ * a {
+  color: royalblue;
+ }
 .c1 {
   margin-top: 2%;
   display: flex;
