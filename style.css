@@ -79,15 +79,6 @@ li a.active {
   color: white;
 }
 
-a.shook {
-  color: black;
-  display: inline-block;
-  line-height: 20px;
-  overflow: hidden;
-  text-decoration: none;
-  width: 9px;
-}
-
 .column {
   float: left;
   margin: 2%;
