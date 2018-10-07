@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Remove Html Elements</title>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <ul id="remove" style="background-color: green; width: 300px; height: 200px;">
+        Remove
+        <li>Lorem, ipsum.</li>
+        <li>Eius, quo!</li>
+        <li>Optio, quidem.</li>
+    </ul>
+    <hr />
+    <ul id="empty" style="background-color: red; width: 300px; height: 200px;">
+        Empty
+        <li>Lorem, ipsum.</li>
+        <li>Eius, quo!</li>
+        <li>Optio, quidem.</li>
+    </ul>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#remove").click(function () {
+                $(this).remove();
+            });
+
+            $("#empty").click(function () {
+                $(this).empty();
+            });
+        });
+    </script>
+</body>
+
+</html>
