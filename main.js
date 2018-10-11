@@ -1,5 +1,5 @@
 /// <reference path="typings/globals/jquery/index.d.ts" />
-
+//verwijdert items uit lijst
 $(document).ready(function() {
   
   $(document).on('click', 'button[name="del"]', function(){
@@ -23,7 +23,8 @@ $(document).ready(function() {
       return false;
       }
       });
-
+//
+//voegt item toe aan lijst
   $("#btnAppend").click(function() {
 
     var itemName = $("#itemName").val();
@@ -47,14 +48,16 @@ $(document).ready(function() {
     }
 
   });
+//
+  //maakt item uit lijst hoverable
+  $(document).on('mouseenter', '#list li', function(){
+    $(this).css('background-color','lightgrey')
+  });
 
-  /*$("#btnRemove").click(function () {
-    $("#list li").slideUp("slow", function () {
-      $("#list li").remove();
-    });
-  });*/
-
-  
+  $(document).on('mouseleave', '#list li', function(){
+    $(this).css('background-color','white')
+  });
+  //
   
   
 });
